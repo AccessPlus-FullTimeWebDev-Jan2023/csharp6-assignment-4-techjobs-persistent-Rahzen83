@@ -13,9 +13,10 @@ namespace TechJobs6Persistent.Models
             Name = name;
             Location = location;
         }
-
+        public List<Job> Jobs { get; set; }
         public Employer()
         {
+            
         }
     }
 }
